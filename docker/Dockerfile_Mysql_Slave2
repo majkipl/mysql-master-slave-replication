@@ -1,0 +1,4 @@
+FROM mysql:8.0.25
+
+COPY mysql/conf/slave_2.cnf /etc/mysql/my.cnf
+COPY mysql/sql/replication_slaves.sql /docker-entrypoint-initdb.d/
