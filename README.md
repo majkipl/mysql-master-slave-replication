@@ -1,4 +1,4 @@
-## About
+## Opis
 
 Fundament pod mechanizm replikacji Master-Slave w MySQL przy użyciu Docker i Docker Compose.
 
